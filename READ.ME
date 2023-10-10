@@ -1,0 +1,35 @@
+###ASSIGNMENT SPECIFICATIONS###
+You will write a program that calculatesthe amount of materials needed
+for an ornamental garden according to the design shown on the right.
+
+The garden is a perfect square.
+The program will prompt the user for the following information:
+1.The lenght of one side of the garden(in feet).
+2.The recommended spacing between plants(in inches).
+3.The depth of the flowerbeds(in feet).
+4.The depth of the fill areas(in feet).
+
+The program must prompt the user(and accept input) in the exact order shown above.
+The program will then calculate and report the following quantities needed for the garden:
+1.Number of plants for each type of flowerbed and total number of plants for the garden.
+2.Cubic yards of soil for each type of flowerbed and total cubic yards of soil for the garden,
+rounded to one decimal place.
+3.Total cubic yards of fill material for the garden,rounded to one decimal place.
+
+###ASSIGNMENT NOTES###
+The program must produce the correct result for valid inputs.
+However,it is not expected to handle invalid inputs(such as negative values).
+Thus ,it is unnecessary to use selective or repetitive control statements(ifs and loops) in your program.
+
+The formula for the area A of a circle is A=pi*r^2,
+where r denotes the radius.
+For this calculation,you will use the value of pi provided in the Python math module.
+After importing the math module,the name math.pi represent a close approximation to the value of pi.
+
+To estimate the number of plants needed for a flowerbed,
+divide the area of the flowerbed by the area needed per plant(the square of the recommended distance between plants)
+and then truncate this result.
+To truncatea value of type float,convert it to a value of type int(using int function).
+
+The program named example.py in the project directory contains example usages of many of the Python features you will use this project(with explanations in the comments).
+
